@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+ <!-- icons -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+ <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- animation owl  -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<!-- owlCarousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<!-- myScss -->
+
+<link rel="stylesheet" href="assets/product/product.css">
+
+</head>
+
+<body>
+     <div class="header">
+             <div class="container">
+                 <div class="logo d-lg-none">
+                     <img src="https://htmldemo.net/juan/juan/assets/img/logo/logo.png" alt="logo.png">
+                 </div>
+                 <div class="header-title ">
+                   <p>Welcome to Juan online store</p>
+                 </div>
+                 <div class="header-right">
+                   <div class="header-usd">
+                       <select id="select-money">
+                           <option value="$ Dollar (US)">$ Dollar (US)</option>
+                           <option value="usd">usd</option>
+                           <option value="euro">euro</option>
+                         </select>
+                    </div>
+                    <div class="header-languages">
+                       <select id="select-language">
+                           <option value="English">English</option>
+                           <option value="usd">French</option>
+                           <option value="euro">English</option>
+                         </select>
+                     </div>
+                 </div>
+                 <div class="menuicons d-lg-none">
+                   <ul>
+                       <li><a href=""><i class="bi bi-bag"></i></i></a></li>
+                       <li><a href=""><i class="bi bi-list"></i></a></li>
+                   </ul>
+               </div>
+             </div>
+         </div>
+       
+         <!-- bottom header bashlad; -->
+       <div id="bottom-scroll">
+         <div id="bottom-header" class="bottom-header">
+           <div class="container">
+               <div class="bottom-header--logo">
+                   <img src="https://htmldemo.net/juan/juan/assets/img/logo/logo.png" alt="logo.png">
+               </div>
+               <div class="bottom-header-nav">
+                <ul>
+                 <li id="home"><a href="">Home <i class="bi bi-chevron-down"></i></a>     
+                   <div class="home-hover">
+                   <ul>
+                     <li><a href="">Home version</a></li>
+                     <li><a href="">Home version</a></li>
+                   </ul>
+                   </div>
+                 </li>
+                 <li id="pages"><a href="">products <i class="bi bi-chevron-down"></i></a>
+                   <div class="pages-hover">
+                    <div class="row">
+                      <div class="col-3">
+                       <ul>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                       </ul>
+                      </div>
+                      <div class="col-3">
+                       <ul>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                       </ul>
+                      </div>
+                      <div class="col-3">
+                       <ul>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                       </ul>
+                      </div>
+                      <div class="col-3">
+                       <ul>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                         <li><a href="">Home version</a></li>
+                       </ul>
+                      </div>
+       
+                    </div>
+                     </div></li>
+                 <li id="shop"><a href="">shop <i class="bi bi-chevron-down"></i></a>
+                   <div class="shop-hover">
+                     <ul>
+                       <li><a href="">Home version</a></li>
+                       <li><a href="">Home version</a></li>
+                     </ul>
+                     </div></li>
+                 <li id="blog"><a href="">blog <i class="bi bi-chevron-down"></i></a>
+                   <div class="blog-hover">
+                     <ul>
+                       <li><a href="">Home version</a></li>
+                       <li><a href="">Home version</a></li>
+                       <li><a href="">Home version</a></li>
+                       <li><a href="">Home version</a></li>
+                       <li><a href="">Home version</a></li>
+                       <li><a href="">Home version</a></li>
+                     </ul>
+                     </div></li>
+                 <li><a href="">Contact us </a></li>     
+                </ul>
+                <!-- bottom header hover bashladi  -->
+                
+                  <!-- bottom header hover bitdi  -->
+               </div>
+               <div class="bottom-header-icons">
+                 <ul>
+                   <li><a href=""><i class="bi bi-search"></i></a></li>
+                   <li><a href=""><i class="bi bi-gear"></i></a></li>
+                   <li><a href=""><i class="bi bi-bag"></i></a></li>
+                 </ul>
+               </div>
+           </div>
+         </div>
+       </div>
+         <!-- bottom header bitdi -->
+
+
+         <div class="page-name">
+           <h1>shop</h1>
+           <span>Home &nbsp; /&nbsp; <a href="">&nbsp; Shop</a></span>
+         </div>
+       
+       <div class="container input-container">
+         <div class="row page-row">
+
+          <!-- categories col 3 bashladi  -->
+
+           <div class="col-3 category-col">
+            <div class="category-col-categories">
+              <h3>Categories</h3>
+              <ul>
+                <li><a href="">Mens </a><span>(10)</span></li>
+                <li><a href="">Womens </a><span>(10)</span></li>
+                <li><a href="">Sport </a><span>(10)</span></li>
+                <li><a href="">Fabric </a><span>(10)</span></li>
+                <li><a href="">Leather </a><span>(10)</span></li>
+              </ul>
+            </div>
+
+            <div class="category-col-price-slider">
+                <h3>Filter by Price</h3>
+                <div class="range-slider">
+                 
+                   <div class="price-slider">
+                    <span>Price: &nbsp; &nbsp; $</span>
+
+                    <input id="input" type="number" value="0" min="0" max="400" step="500">
+                    <input id="input" type="number" value="400" min="0" max="400" step="500">
+                   </div>
+
+                  <input value="400" min="0" max="400" step="1" type="range">
+                  <input value="400" min="0" max="400" step="1" type="range">
+                
+              </div>
+              <button>FILTER</button>
+            </div>
+            <div class="category-col-categories category-col-color">
+              <h3>Colors</h3>
+              <ul>
+                <li><a href="">Gold </a><span>(10)</span></li>
+                <li><a href="">Green </a><span>(10)</span></li>
+                <li><a href="">Blue </a><span>(10)</span></li>
+                <li><a href="">White </a><span>(10)</span></li>
+                <li><a href="">Gold </a><span>(10)</span></li>
+              </ul>
+            </div>
+            <div class="category-col-categories category-col-color">
+              <h3>Size</h3>
+              <ul>
+                <li><a href="">S </a><span>(10)</span></li>
+                <li><a href="">L </a><span>(10)</span></li>
+                <li><a href="">M </a><span>(10)</span></li>
+                <li><a href="">XL </a><span>(10)</span></li>
+              </ul>
+            </div>
+           </div>
+            <!-- categories col 3 bitdi  -->
+
+              <!-- sorting inputs bashladi -->
+
+
+
+           <div class="col col-lg-9">
+
+            
+               <div class="all-row">
+             
+
+
+                
+           <div class="row input-row">
+
+             <div class="col all-col">
+                <div class="input-col">
+                    <div class="sorting-inputs">
+                      <span>Sort By:</span> 
+                      <select name="" id=""><option value=""><strong>Relevance</strong></option>
+                     <option value="">Name (A-Z)</option></select>
+                    </div>
+                    <div class="sorting-p-tag">
+                      <p>Showing 1–16 of 21 results</p>
+                    </div>
+                  </div>
+             </div>
+           </div>
+              <div class="row grid-row">
+                  <div class="grid-icons">
+                      <ul>
+                        <li><a href=""><i class="bi bi-grid-1x2-fill"></i></i></a></li>
+                        <li><a href=""><i class="bi bi-grid-1x2-fill"></i></i></a></li>
+                      </ul>
+                    </div>
+              </div>
+
+ <!-- sorting inputs bitdi -->
+
+            
+            </div>   
+           
+           
+           <div class="row products-row">
+             <div class="col products-col">
+          
+
+
+                
+                <div class="item col-lg-4">
+                  <div class="owl-img-class">
+                   <img src="https://htmldemo.net/juan/juan/assets/img/product/product-4.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+                 <div class="item col-lg-4">
+                  <div class="owl-img-class">
+                   <img src="	https://htmldemo.net/juan/juan/assets/img/product/product-1.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+                 <div class="item">
+                  <div class="owl-img-class">
+                   <img src="	https://htmldemo.net/juan/juan/assets/img/product/product-1.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+                 <div class="item col-lg-4">
+                  <div class="owl-img-class">
+                   <img src="	https://htmldemo.net/juan/juan/assets/img/product/product-3.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+                     
+                <div class="item">
+                  <div class="owl-img-class">
+                   <img src="https://htmldemo.net/juan/juan/assets/img/product/product-4.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+                 <div class="item">
+                  <div class="owl-img-class">
+                   <img src="	https://htmldemo.net/juan/juan/assets/img/product/product-5.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+                 <div class="item">
+                  <div class="owl-img-class">
+                   <img src="https://htmldemo.net/juan/juan/assets/img/product/product-6.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+                 <div class="item">
+                  <div class="owl-img-class">
+                   <img src="https://htmldemo.net/juan/juan/assets/img/product/product-7.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+                     
+                <div class="item">
+                  <div class="owl-img-class">
+                   <img src="https://htmldemo.net/juan/juan/assets/img/product/product-8.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+                 <div class="item">
+                  <div class="owl-img-class">
+                   <img src="https://htmldemo.net/juan/juan/assets/img/product/product-9.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+                 <div class="item">
+                  <div class="owl-img-class">
+                   <img src="https://htmldemo.net/juan/juan/assets/img/product/product-10.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+                 <div class="item">
+                  <div class="owl-img-class">
+                   <img src="https://htmldemo.net/juan/juan/assets/img/product/product-11.jpg" alt="">
+                  </div>
+                  <div class="owl-text-class">
+                   <a href="singleproduct.html">Leather men slipper</a>
+                   <div class="pricebox">
+                     <span>$80.00</span>
+                     <del>$90.00</del>
+                   </div>
+                  </div>
+           
+                  <div class="item-hover-icons">
+                 
+                   <div class="hover-icon-1">
+                     <i class="bi bi-eye-fill"></i>
+               
+                   </div>
+           
+                 
+                     <div class="hover-icon-2">
+                       <i class="bi bi-bag-heart"></i>
+                     </div>
+                  
+           
+                
+                       <div class="hover-icon-3">
+                         <i class="bi bi-heart-fill"></i>
+                       </div>
+                    
+           
+                 </div>
+                 </div>
+               
+
+                 <!-- pagination ucun -->
+                    <div class="page-numbers-div">
+                        <div class="number-buttons">
+                          <button><i class="bi bi-chevron-left"></i></button>
+                          <button>1</button>
+                          <button>2</button>
+                          <button>3</button>
+                          <button><i class="bi bi-chevron-right"></i></button>
+                        </div>
+                     
+                    </div>
+
+
+             </div>
+           </div>
+            </div>
+           </div>
+         </div>
+
+         <!-- footer  -->
+         <div class="footer">
+          <div class="container footer-container">
+        <div class="footer-account">
+          <h5>My Account</h5>
+          <span>184 Main Rd E, St.Alans VIC 3021,Austrelia</span> <br>
+          <span>Mail Us: example@gmail.com</span> <br>
+          <span>Phone: +994 55 618 25 23</span>
+        </div> <br>
+        <div class="footer-account">
+          <h5>Categories</h5>
+          <span>Ecommerce</span> <br>
+          <span>Shopyfy</span> <br>
+          <span>Opencart</span><br>
+          <span>Magneto</span><br>
+          <span>Prestshop</span><br>
+          <span>Shopyfy</span> <br>
+          <span>Opencart</span><br>
+         
+        </div> <br>
+        <div class="footer-account">
+          <h5>Information</h5>
+          <span>Home</span> <br>
+          <span>About Us</span> <br>
+          <span>Contact Us</span> <br>
+          <span>Return</span> <br>
+          <span>Privacy</span> <br>
+          <span>Privacy</span> <br>
+        </div> <br>
+        <div class="footer-account">
+          <h5>Quick Links</h5>
+          <span>Store</span> <br>
+          <span>About Us</span> <br>
+          <span>Account</span> <br>
+          <span>Return</span> <br>
+          <span>Privacy</span> <br>
+        </div>
+      </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-content">
+          <div class="social-icons">
+            <ul>
+              <li><a href=""><i class="bi bi-facebook"></i></a></li>
+              <li><a href=""></a><i class="bi bi-twitter"></i></li>
+              <li><a href=""></a><i class="bi bi-linkedin"></i></li>
+              <li><a href=""></a><i class="bi bi-instagram"></i></li>
+            </ul>
+          </div>
+          <div class="footer-bottom-author">
+            <p>© 2021 <b>Juan</b> made with <i class="bi bi-heart-fill"></i> by Jahangir</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+        
+</body>
+
+
+
+<!-- jquerry -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- owlCarousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- my script -->
+<script src="product.js"></script>
+</html>
